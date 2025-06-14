@@ -12,8 +12,8 @@ export default function LogoTicker() {
   return (
     <section className="py-20 md:py-24">
       <div className="container mx-auto">
-        <div className="flex flex-col justify-center items-center gap-5">
-          <h2 className="flex-1 md:flex-none mx-20">
+        <div className="flex justify-center items-center gap-5">
+          <h2 className="flex-1 md:flex-none md:mx-20">
             Trusted by top innovative teams
           </h2>
           <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
