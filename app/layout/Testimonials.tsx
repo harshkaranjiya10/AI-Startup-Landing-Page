@@ -67,13 +67,13 @@ export default function Testimonials() {
                   "“Our team's productivitydhrt has increased significantly since we started using this tool”",
                 key: "6",
               },
-            ].map((testimonial, index) => (
+            ].map((testimonial) => (
               <div
                 key={testimonial.name}
                 className="mx-5 border border-gray-700 rounded-2xl p-6 md:p-10 max-w-xs md:max-w-md flex-none bg-gradient-to-r from-[#15043c] to-[#3b0766]"
               >
                 <div className="py-5 text-lg tracking-tight md:text-2xl">
-                  {index} {testimonial.message}{" "}
+                  {testimonial.message}{" "}
                 </div>
                 <div className="flex gap-3 items-center mt-5">
                   <div className="relative after:content-[''] after:absolute after:inset-0 after:bg-[#8C45F4] after:mix-blend-soft-light before:absolute before:content-[''] before:inset-0 before:border-white/30 before:z-10 before:rounded-lg">
