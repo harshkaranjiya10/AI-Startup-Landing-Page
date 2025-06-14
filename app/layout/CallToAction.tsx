@@ -4,7 +4,7 @@ import Button from "../components/Button";
 export default function CallToAction() {
   return (
     <div className="py-20 md:py-24">
-      {/* <div className="container mx-auto">
+      <div className="container mx-auto">
         <div className="border border-white/15 py-24 rounded-xl overflow-hidden relative group">
           <div className="absolute inset-0 bg-[rgb(74,32,138)] bg-blend-overlay [mask-image:radial-gradient(50%_50%_at_50%_35%,black,transparent)] group-hover:opacity-0 transition duration-700"></div>
 
@@ -20,7 +20,7 @@ export default function CallToAction() {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
